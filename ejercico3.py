@@ -1,14 +1,14 @@
 #Ejemplo de un menú
 
-n = int(input("Menú: 1(Ver números), 0(Salir) "))
-while n !=0:
-    x = 0
+num= int(input("menu: (numeros), 0 (salir) "))
+while num !=0:
 
-    while x<10:
-        print("El valor de x es: ",x)
-        x += 1
+    x=0
+    while x < 10:
+        print("el valor de x es: ", x)
+        x+=1
 
-    print("Saliendo,,,")
-    n = int(input("Menú: 1(ver números), 0(Salir) "))
-
-print("Gracias")
+    print ("saliendo")
+    num= int(input("menu: 1(numeros), 0 (salir) "))
+    
+print("gracias")
